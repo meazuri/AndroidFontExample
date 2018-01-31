@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.android.bose.androidfont.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="4dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/roboto_bolditalic"
+        android:text="@string/default_font" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/roboto_font"
+        android:padding="4dp"
+        android:fontFamily="@font/roboto_thin"/>
+
+    <Button
+        android:id="@+id/thin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Roboto Thin" />
+
+    <Button
+        android:id="@+id/italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Roboto Bold Italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This font is set by using styles"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This font is set by using styles"
+        android:layout_margin="10dp"/>
+</LinearLayout>

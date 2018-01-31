@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidFont</string>
+    <string name="default_font">Default Android Font</string>
+    <string name="roboto_font">Roboto Thin by using fontFamily</string>
+</resources>
